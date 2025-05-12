@@ -37,6 +37,14 @@ body {
   margin-left: 2rem;
 }
 
+.title-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  color: #e1af51;
+  font-size: larger;
+}
+
 .img-div {
   width: fit-content;
   height: 35rem;
