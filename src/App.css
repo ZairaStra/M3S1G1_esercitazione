@@ -54,6 +54,11 @@ body {
   margin-right: 2rem;
 }
 
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .img-div {
   width: fit-content;
   height: 25rem;
@@ -63,15 +68,12 @@ body {
 
 .img-div img {
   width: 200px;
-  height: auto;
+  height: 250px;
+  object-fit: cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
 
-.cards-container {
-  display: flex;
-  justify-content: space-between;
-}
 .card-body {
   text-align: center;
 }
@@ -87,6 +89,27 @@ body {
   color: white;
   border-radius: 4rem;
   border-style: none;
+}
+
+.form-container {
+  text-align: center;
+  color: rgb(79, 79, 143);
+  font-size: larger;
+}
+.footer-container form {
+  margin-block: 1rem;
+}
+
+.form-elements {
+  display: block;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: inherit;
+  width: 500px;
+  border: 2px solid rgb(79, 79, 143);
+  border-radius: 2rem;
+  padding: 1rem;
 }
 
 .footer-container {

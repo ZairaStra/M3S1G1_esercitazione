@@ -1,7 +1,7 @@
 const Section = function (props) {
   return (
     <div className="general-container ">
-      <div className="cards-container">{props.children}</div>
+      <div className="{props.className}">{props.children}</div>
     </div>
   );
 };
