@@ -10,7 +10,7 @@ body {
 }
 
 .general-container {
-  max-width: 900px;
+  max-width: 1000px;
   padding-block: 1rem;
   margin: auto;
 }
@@ -56,20 +56,29 @@ body {
 
 .img-div {
   width: fit-content;
-  height: 35rem;
+  height: 25rem;
   border: 3px solid rgb(79, 79, 143);
   border-radius: 15px;
 }
 
 .img-div img {
-  width: 300px;
+  width: 200px;
   height: auto;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body h3 {
+  margin-block: 0.5rem;
+  color: #e1af51;
 }
 
 .btn {
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   background-color: #e1af51;
   color: white;
   border-radius: 4rem;
