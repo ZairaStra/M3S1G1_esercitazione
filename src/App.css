@@ -39,10 +39,14 @@ body {
 
 .title-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: baseline;
   color: #e1af51;
   font-size: larger;
+}
+
+.title-container h1 {
+  margin-right: 2rem;
 }
 
 .img-div {
