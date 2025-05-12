@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.header-style {
+  padding-block: 1rem;
+  background-color: rgb(250, 203, 119);
+  color: white;
+  position: sticky;
+}
+
+.container img {
+  border-radius: 10px;
+}
+
+.container ul {
+  display: flex;
+}
+
+.container ul li {
+  list-style: none;
+  margin-left: 2rem;
+}
+
+.img-div {
+  width: fit-content;
+  height: 35rem;
+  border: 3px solid rgb(79, 79, 143);
+  border-radius: 15px;
+}
+
+.img-div img {
+  width: 300px;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  background-color: rgb(250, 203, 119);
+  color: white;
+  border-radius: 4rem;
+  border-style: none;
+}
