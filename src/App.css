@@ -68,6 +68,10 @@ body {
   border-top-right-radius: 12px;
 }
 
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+}
 .card-body {
   text-align: center;
 }
