@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className="banner">
-        <div className="footer-container">
+        <div className="general-container footer-container">
           <ul>
             Follow Us on:
             <li>Facebook</li>
