@@ -1,4 +1,4 @@
-const Main = function (props) {
+const Title = function (props) {
   return (
     <div className="general-container title-container">
       <h1>{props.title}</h1>
@@ -7,4 +7,4 @@ const Main = function (props) {
   );
 };
 
-export default Main;
+export default Title;
