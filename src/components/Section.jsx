@@ -3,9 +3,9 @@ const Section = function (props) {
     <div className="section-container">
       <div className="section-title">
         <h3>{props.sectionTitle}</h3>
-        <a href=".banner">Up</a>
+        <a href="#">Up</a>
       </div>
-      <div className="{props.className}">{props.children}</div>
+      <div className="section-content">{props.children}</div>
     </div>
   );
 };

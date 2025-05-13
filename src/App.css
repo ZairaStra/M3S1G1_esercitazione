@@ -73,21 +73,24 @@ body {
   color: inherit;
 }
 
+.section-content {
+}
+
 .cards-container {
   display: flex;
   justify-content: space-between;
 }
 
-.img-div {
+.card-div {
   width: fit-content;
   height: 25rem;
   border: 3px solid rgb(79, 79, 143);
   border-radius: 15px;
 }
 
-.img-div img {
+.card-div img {
   width: 200px;
-  height: 250px;
+  height: 300px;
   object-fit: cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;

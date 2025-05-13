@@ -1,6 +1,6 @@
 const ImageComponent = function (props) {
   return (
-    <div className="img-div">
+    <div className="card-div">
       <img src={props.imgSrc} alt="image-description" />
     </div>
   );
